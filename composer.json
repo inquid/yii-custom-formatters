@@ -1,0 +1,21 @@
+{
+    "name": "inquid/yii-custom-formatters",
+    "description": "Yii Inquid Custom Formatters",
+    "type": "yii2-extension",
+    "keywords": ["yii2","extension","Custom","Formatters","Whatstapp","Bills"],
+    "license": "Apache-2.0",
+    "authors": [
+        {
+            "name": "inquid",
+            "email": "contact@inquid.co"
+        }
+    ],
+    "require": {
+        "yiisoft/yii2": "~2.0.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "inquid\\customformatters\\": "src"
+        }
+    }
+}
